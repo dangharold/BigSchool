@@ -26,5 +26,11 @@ namespace _1911065192_HuynhHaiDang_BigSchool.Controllers
 
             return View();
         }
+        public ActionResult About1()
+        {
+            ViewBag.Message = "Your application description page.";
+
+            return View();
+        }
     }
 }
