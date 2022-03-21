@@ -17,7 +17,5 @@ namespace _1911065192_HuynhHaiDang_BigSchool.Models
         public string Place { get; set; }
         public DateTime DateTime { get; set; }
         public Category Category { get; set; }
-        [Required]
-
     }
 }
