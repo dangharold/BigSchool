@@ -1,5 +1,6 @@
 ﻿using _1911065192_HuynhHaiDang_BigSchool.Models;
 using _1911065192_HuynhHaiDang_BigSchool.ViewModels;
+using Microsoft.AspNet.Identity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,14 +19,22 @@ namespace _1911065192_HuynhHaiDang_BigSchool.Controllers
         {
             _dbContext = new ApplicationDbContext();
         }
-        public ActionResult Create()
+        [Authorize]
+        [HttpPost]
+        public ActionResult Create(CourseViewModel viewModel)
         {
-            var viewModel = new CourseViewModel
+          
+
+            var course = new Course
             {
-                Categories = _dbContext.Categories.ToList()
+                LecturerId = User.Identity.GetUserId(),
+                DateTime = viewModel.GetDateTime(),
+                CategoryId = viewModel.Category,
+                Place = viewModel.Place,
             };
-        
-            return View(viewModel);
+            _dbContext.Cources.Add(course);
+            _dbContext.SaveChanges();
+            return RedirectToAction("Index", "Home");
 
         }
 }
