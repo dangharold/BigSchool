@@ -13,7 +13,7 @@ namespace _1911065192_HuynhHaiDang_BigSchool.ViewModels
         [Requried]
         public string Place { get; set; }
         [Requried]
-        [Futuredate]
+       
         public string Date { get; set; }
         [Requried]
         [ValidTime]

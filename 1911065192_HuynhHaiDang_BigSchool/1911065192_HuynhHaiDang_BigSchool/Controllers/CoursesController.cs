@@ -37,6 +37,6 @@ namespace _1911065192_HuynhHaiDang_BigSchool.Controllers
             return RedirectToAction("Index", "Home");
 
         }
-}
+    }
 
 }
