@@ -24,7 +24,7 @@ namespace _1911065192_HuynhHaiDang_BigSchool
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+                      "~/Content/Site.css"));
         }
     }
 }
