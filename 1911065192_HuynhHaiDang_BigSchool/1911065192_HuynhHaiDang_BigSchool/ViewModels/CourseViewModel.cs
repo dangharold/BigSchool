@@ -15,6 +15,7 @@ namespace _1911065192_HuynhHaiDang_BigSchool.ViewModels
         [FutureDate]
         public string Date { get; set; }
         [Required]
+        [ValidTime]
         public string Time { get; set; }
         [Required]
         public byte Category { get; set; }
