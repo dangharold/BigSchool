@@ -10,12 +10,13 @@ namespace _1911065192_HuynhHaiDang_BigSchool.ViewModels
 {
     public class CourseViewModel
     {
+        public int Id { get; set; }
         [Requried]
         public string Place { get; set; }
         [Requried]
-       
+        [FutureDate]
         public string Date { get; set; }
-        [Requried]
+        [Required]
         [ValidTime]
         public string Time { get; set; }
 
@@ -28,5 +29,11 @@ namespace _1911065192_HuynhHaiDang_BigSchool.ViewModels
             return DateTime.Parse(string.Format("{0} {1}", Date, Time));
         }
 
+        public string Heading { get; set; }
+
+        public string Action
+        {
+            get { return (Id != 0) ? "Update" : "Create"; }
+        }
     }
 }
