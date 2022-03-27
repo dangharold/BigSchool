@@ -1,0 +1,15 @@
+﻿@model IEnumerable<_1911065192_BigSchool_HaiDang.Models.Course>
+@{
+    ViewBag.Title = "Home Page";
+}
+    <div class="row">
+        <ul>
+            @foreach (var course in Model)
+            {
+                <li>
+                    @course.DateTime - @course.Lecturer.Name
+                </li>
+
+            }
+        </ul>
+    </div>
