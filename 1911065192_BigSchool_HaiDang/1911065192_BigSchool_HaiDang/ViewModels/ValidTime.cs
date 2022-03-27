@@ -13,7 +13,7 @@ namespace _1911065192_BigSchool_HaiDang.ViewModels
         {
             DateTime dateTime;
             var isvalid = DateTime.TryParseExact(Convert.ToString(value),
-               "HH: mm",
+               "HH:mm",
                 CultureInfo.CurrentCulture,
                 DateTimeStyles.None,
                 out dateTime);

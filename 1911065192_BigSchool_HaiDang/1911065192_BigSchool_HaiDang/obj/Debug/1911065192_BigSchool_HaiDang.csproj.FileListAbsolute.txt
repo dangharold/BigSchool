@@ -223,3 +223,10 @@ C:\Users\huynh\OneDrive\Documents\GitHub\BigSchool\1911065192_BigSchool_HaiDang\
 C:\Users\huynh\OneDrive\Documents\GitHub\BigSchool\1911065192_BigSchool_HaiDang\1911065192_BigSchool_HaiDang\obj\Debug\1911065192_BigSchool_HaiDang.dll
 C:\Users\huynh\OneDrive\Documents\GitHub\BigSchool\1911065192_BigSchool_HaiDang\1911065192_BigSchool_HaiDang\obj\Debug\1911065192_BigSchool_HaiDang.pdb
 C:\Users\huynh\OneDrive\Documents\GitHub\BigSchool\1911065192_BigSchool_HaiDang\1911065192_BigSchool_HaiDang\obj\Debug\_1911065192_BigSchool_HaiDang.Migrations.AddNameColumnToApplicationUser.resources
+C:\Users\huynh\OneDrive\Documents\GitHub\BigSchool\1911065192_BigSchool_HaiDang\1911065192_BigSchool_HaiDang\obj\Debug\_1911065192_BigSchool_HaiDang.Migrations.AddAttendance.resources
+C:\Users\huynh\OneDrive\Documents\GitHub\BigSchool\1911065192_BigSchool_HaiDang\1911065192_BigSchool_HaiDang\bin\System.Net.Http.Formatting.dll
+C:\Users\huynh\OneDrive\Documents\GitHub\BigSchool\1911065192_BigSchool_HaiDang\1911065192_BigSchool_HaiDang\bin\System.Web.Http.dll
+C:\Users\huynh\OneDrive\Documents\GitHub\BigSchool\1911065192_BigSchool_HaiDang\1911065192_BigSchool_HaiDang\bin\System.Web.Http.WebHost.dll
+C:\Users\huynh\OneDrive\Documents\GitHub\BigSchool\1911065192_BigSchool_HaiDang\1911065192_BigSchool_HaiDang\bin\System.Net.Http.Formatting.xml
+C:\Users\huynh\OneDrive\Documents\GitHub\BigSchool\1911065192_BigSchool_HaiDang\1911065192_BigSchool_HaiDang\bin\System.Web.Http.xml
+C:\Users\huynh\OneDrive\Documents\GitHub\BigSchool\1911065192_BigSchool_HaiDang\1911065192_BigSchool_HaiDang\bin\System.Web.Http.WebHost.xml
