@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNet.Identity.EntityFramework;
+using System.Collections.ObjectModel;
 using System.Data.Entity;
 
 namespace _1911065192_HuynhHaiDang_BigSchool.Models
@@ -14,7 +15,7 @@ namespace _1911065192_HuynhHaiDang_BigSchool.Models
             : base("DefaultConnection", throwIfV1Schema: false)
         {
         }
-
+     
         public static ApplicationDbContext Create()
         {
             return new ApplicationDbContext();
