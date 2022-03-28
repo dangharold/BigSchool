@@ -15,6 +15,57 @@
 .dl-horizontal dt {
     white-space: normal;
 }
+.navbar-inverse {
+    background-color: #7cbafe;
+    border-color: #b4e637;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #f14e06;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #f14e06;
+}
+
+.course {
+    list-style: none;
+}
+
+.course > li {
+position: relative;
+margin-bottom: 30px;
+}
+
+.course > li .date {
+    text-align: center;
+    background-color: #d41d50;
+    color: yellow;
+    width: 60px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.course > li .details {
+    position: absolute;
+    top: 0;
+    left: 70px;
+}
+
+.course > li .action {
+    display: none;
+    left: 70px;
+    position: absolute;
+}
+
+.course > li:hover .action {
+    display: block;
+}
+
+.course .action {
+margin-top: -25px;
+margin-bottom: 20px;
+}
 
 /* Set width on the form input elements since they're 100% wide by default */
 input,

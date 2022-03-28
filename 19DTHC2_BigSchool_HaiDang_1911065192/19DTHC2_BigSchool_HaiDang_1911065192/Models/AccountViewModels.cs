@@ -79,6 +79,9 @@ namespace _19DTHC2_BigSchool_HaiDang_1911065192.Models
         [Display(Name = "Confirm password")]
         [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
         public string ConfirmPassword { get; set; }
+        [Required]
+        [StringLength(225)]
+        public string Name { get; set; }
     }
 
     public class ResetPasswordViewModel
