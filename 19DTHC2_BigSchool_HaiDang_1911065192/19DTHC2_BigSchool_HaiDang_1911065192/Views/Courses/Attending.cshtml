@@ -50,7 +50,19 @@
                             }
                         }
 
-
+                    <span class="lecturer">
+                        @course.Lecturer.Name
+                        @if (course.IsCanceled)
+                        {
+                            <span class="label label-warning">Canceled</span>
+                        }
+                        @if (Model.ShowAction && !course.IsCanceled)
+                        {
+                            <button class="btn btn-link btn-sm js-toggle-follow" data-user-
+                                    id="@course.LecturerId">
+                            </button>
+                        }
+                    </span>
                     </div>
                     <div class="category">
                         @course.Category.Name
@@ -74,6 +86,7 @@
                         }
 
                     </div>
+
 
                 </div>
             </li>
